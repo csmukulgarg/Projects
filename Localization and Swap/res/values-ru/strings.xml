@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string name="app_name">ICL Пример</string>
+   <string name="info_text">Вы здесь...</string>
+<color name="White">#ffffff</color>
+</resources>

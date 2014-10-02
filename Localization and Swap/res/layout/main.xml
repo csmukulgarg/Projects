@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent" 
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:id="@+id/iclLayout">
+    
+    <ImageView
+        android:id="@+id/countryimage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="false"
+        android:adjustViewBounds="true"
+        android:background="@drawable/background"
+        android:maxHeight="80dp"
+        android:maxWidth="100dp" >
+
+</ImageView>
+<TextView android:layout_width="wrap_content" 
+    android:layout_height="wrap_content" 
+    android:text="@string/info_text" 
+    android:layout_alignParentBottom="true" 
+    android:textColor="@color/White" 
+    android:textSize="24dip" 
+    android:layout_centerHorizontal="true" 
+    android:id="@+id/infotext">
+    
+</TextView>
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/infotext"
+        android:layout_alignLeft="@+id/editText1"
+        android:layout_marginBottom="15dp"
+        android:capitalize="characters"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:maxLength="7" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText2"
+        android:layout_alignLeft="@+id/textView3"
+        android:text="Editor 2" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="14dp"
+        android:capitalize="characters"
+        android:ems="10"
+        android:imeOptions="actionSend"
+        android:maxLength="7" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/editText1"
+        android:layout_centerHorizontal="true"
+        android:text="Editor 1" />
+
+</RelativeLayout>
